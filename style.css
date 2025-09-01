@@ -1,0 +1,84 @@
+h1{
+    color: rgb(248, 245, 245);
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.menu{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.menu ul{
+    color: rgb(58, 13, 238);;
+}
+
+.secao{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+form label{
+    margin-top: 15px;
+}
+
+p{
+    color: rgb(58, 13, 238);
+}
+
+body {
+    background-image: url('images/back.avif');
+    /* faz com que a imagem cubra toda a área do body */
+    background-size: cover;
+    background-position: center;
+    /* Evita que a imagem se repita, caso seja menor que a tela */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Container que centraliza o conteúdo */
+.container-principal {
+    max-width: 900px; /* Largura máxima do conteúdo */
+    margin: auto; /* Esta propriedade é a chave para centralizar */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7); /* Fundo semi-transparente */
+    border-radius: 10px; /* Bordas arredondadas */
+    text-align: left; /* Alinha o texto à esquerda dentro do container */
+}
+
+/*TESTE TESTE TESTE ------------------------------------------------------------------*/
+
+/* Estilo para o formulário */
+#contato form {
+    display: flex;
+    flex-direction: column; /* Coloca os elementos (divs .campo-form) um abaixo do outro */
+    align-items: center; /* Centraliza horizontalmente o formulário */
+}
+
+/* Estilo para cada contêiner de campo de formulário */
+.campo-form {
+    display: flex;
+    flex-direction: column; /* Coloca o rótulo e a caixa um abaixo do outro */
+    align-items: center; /* Centraliza horizontalmente o rótulo e a caixa */
+    margin-bottom: 20px; /* Adiciona espaço entre cada campo */
+}
+
+/* Estilos para os campos de entrada e a área de texto */
+#contato input,
+#contato textarea {
+    width: 300px; /* Define uma largura fixa para todos os campos */
+    padding: 8px;
+    box-sizing: border-box; /* Inclui padding e borda na largura total */
+}
+
+#contato button {
+    margin-top: 20px; /* Ajuste este valor (20px) conforme necessário */
+}
+
+footer{
+    text-align: center;
+}
+
+/* Centraliza todos os títulos de seção */
+.secao h2 {
+    text-align: center;
+}
